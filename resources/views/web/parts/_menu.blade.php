@@ -1,30 +1,30 @@
 <div class="rd-navbar-outer-panel">
     <div class="rd-navbar-nav-wrap">
         <ul class="rd-navbar-nav">
-            <li class="active"><a href="index.html">Inicio</a> </li>
+            <li class="active"><a href="{{ route('home') }}">Inicio</a></li>
             <li><a href="#">GLP</a>
                 <ul class="rd-navbar-dropdown">
-                    <li><a href="buttons.html">Blackmer</a></li>
                     <li><a href="buttons.html">ALGAS</a></li>
+                    <li><a href="buttons.html">Blackmer</a></li>
                     <li><a href="buttons.html">EGSA</a></li>
-                    <li><a href="buttons.html">Rochester</a></li>
                     <li><a href="buttons.html">Hannay Reels</a></li>
                     <li><a href="buttons.html">MEC Marshal Excelsior</a></li>
-                    <li><a href="buttons.html">Red Seal</a></li>
                     <li><a href="buttons.html">MGA</a></li>
+                    <li><a href="buttons.html">Rochester</a></li>
+                    <li><a href="buttons.html">Red Seal</a></li>
                     <li><a href="buttons.html">WAC</a></li>
                 </ul>
             </li>
             <li><a href="#">GASES INDUSTRIALES</a>
                 <ul class="rd-navbar-dropdown">
                     <li><a href="buttons.html">Blackmer</a></li>
-                    <li><a href="buttons.html">EGSA</a></li>
-                    <li><a href="buttons.html">RegO</a></li>
-                    <li><a href="buttons.html">EC Marshal Excelsior</a></li>
-                    <li><a href="buttons.html">Metal Impact</a></li>
                     <li><a href="buttons.html">Chester Valve</a></li>
                     <li><a href="buttons.html">Cryo Diffusion</a></li>
+                    <li><a href="buttons.html">EGSA</a></li>
+                    <li><a href="buttons.html">EC Marshal Excelsior</a></li>
+                    <li><a href="buttons.html">Metal Impact</a></li>
                     <li><a href="buttons.html">MGA</a></li>
+                    <li><a href="buttons.html">RegO</a></li>
                     <li><a href="buttons.html">WAC</a></li>
                 </ul>
             </li>
@@ -35,7 +35,7 @@
             </li>
             <li><a href="#">NEWS</a>
                 <ul class="rd-navbar-dropdown">
-                    <li><a href="buttons.html">Información Técnica</a></li>
+                    <li><a href="{{ route('blog.index') }}">Información Técnica</a></li>
                 </ul>
             </li>
             <li><a href="contacts.html">SOBRE NOSOTROS</a></li>
