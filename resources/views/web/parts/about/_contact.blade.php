@@ -80,7 +80,7 @@
                                 </li>
                             </ul>
                             <div class="offset-top-30 offset-md-top-55">
-                                <h5>Phone</h5>
+                                <h5>Teléfono</h5>
                                 <hr>
                                 <address class="contact-info">
                                     <div class="unit unit-horizontal unit-spacing-xs">
@@ -95,7 +95,7 @@
                                 </address>
                             </div>
                             <div class="offset-top-30 offset-md-top-55">
-                                <h5>Address</h5>
+                                <h5>Dirección</h5>
                                 <hr>
                                 <address class="contact-info">
                                     <div class="unit unit-horizontal unit-spacing-xs">

@@ -12,3 +12,4 @@ Route::view('/contacto', 'web.parts.about._contact');
 Route::get('/blog', 'BlogController@index')->name('blog.index');
 Route::get('/blog/{slug}', 'BlogController@post')->name('blog.post');
 
+Route::get('/producto/{provider_id}/{slug}', 'ProviderController@index')->name('provider.index');

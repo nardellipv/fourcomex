@@ -4,6 +4,34 @@
             <li class="active"><a href="{{ route('home') }}">Inicio</a></li>
             <li><a href="#">GLP</a>
                 <ul class="rd-navbar-dropdown">
+                    @foreach($categories as $category)
+                        @if($category->provider_id == 1)
+                            <li><a href="{{ route('provider.index', [$category->provider_id, $category->slug]) }}">{{ $category->name }}</a></li>
+                        @endif
+                    @endforeach
+                </ul>
+            </li>
+            <li><a href="#">Gases Industriales</a>
+                <ul class="rd-navbar-dropdown">
+                    @foreach($categories as $category)
+                        @if($category->provider_id == 2)
+                            <li><a href="{{ route('provider.index', [$category->provider_id, $category->slug]) }}">{{ $category->name }}</a></li>
+                        @endif
+                    @endforeach
+                </ul>
+            </li>
+            <li><a href="#">Mezcladoras</a>
+                <ul class="rd-navbar-dropdown">
+                    @foreach($categories as $category)
+                        @if($category->provider_id == 3)
+                            <li><a href="{{ route('provider.index', [$category->provider_id, $category->slug]) }}">{{ $category->name }}</a></li>
+                        @endif
+                    @endforeach
+                </ul>
+            </li>
+
+            {{--<li><a href="#">GLP</a>
+                <ul class="rd-navbar-dropdown">
                     <li><a href="buttons.html">ALGAS</a></li>
                     <li><a href="buttons.html">Blackmer</a></li>
                     <li><a href="buttons.html">EGSA</a></li>
@@ -32,7 +60,7 @@
                 <ul class="rd-navbar-dropdown">
                     <li><a href="buttons.html">IKA</a></li>
                 </ul>
-            </li>
+            </li>--}}
             <li><a href="#">NEWS</a>
                 <ul class="rd-navbar-dropdown">
                     <li><a href="{{ route('blog.index') }}">Información Técnica</a></li>

@@ -22,7 +22,15 @@ class CreateProductsTable extends Migration
             $table->enum('section', ['PRINCIPAL', 'OTHER']);
             $table->string('photo')->nullable();
 
+            $table->integer('category_id')->unsigned();
+
             $table->timestamps();
+
+            //relaciones
+
+            $table->foreign('category_id')->references('id')->on('categories')
+                ->onDelete('cascade')
+                ->onUpdate('cascade');
         });
     }
 

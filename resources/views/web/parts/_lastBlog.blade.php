@@ -15,7 +15,7 @@
                             </figure>
                             <div class="post-body">
                                 <div class="post-header">
-                                    <h6><a href="blog-post.html">{{ $lastPost->title }}</a></h6>
+                                    <h6><a href="{{ route('blog.post', $lastPost->slug) }}">{{ $lastPost->title }}</a></h6>
                                 </div>
                                 <div class="post-meta">
                                     <time datetime="2016-03-05">May 26, 2016 at 10:34 am</time>
@@ -25,7 +25,7 @@
                                 </div>
                                 <div class="post-footer">
                                     <ul class="list-tags-variant-1">
-                                        <li><a href="#">Leer Noticia</a></li>
+                                        <li><a href="{{ route('blog.post', $lastPost->slug) }}">Leer Noticia</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -36,6 +36,6 @@
         </div>
     </div>
     <div class="shell offset-top-30 offset-sm-top-60">
-        <div class="text-center"><a href="blog-sidebar.html" class="btn btn-primary min-width-230">Ver todas nuestas noticias</a></div>
+        <div class="text-center"><a href="{{ route('blog.index') }}" class="btn btn-primary min-width-230">Ver Noticias</a></div>
     </div>
 </section>
