@@ -4,21 +4,25 @@ namespace App\Http\Controllers;
 
 use App\Blog;
 use App\Product;
+use App\Section;
 
 class HomeController extends Controller
 {
     public function index()
     {
-        $products = Product::where('section', 'PRINCIPAL')
-            ->where('available', 'YES')
-            ->take(6)
+        $productsSlider = Product::take(3)
             ->get();
+
+        $productsPrincipal = Product::take(6)
+            ->get();
+
+        $productsOther = Product::all();
 
         $lastPosts = Blog::orderBy('created_at', 'DESC')
             ->where('status', 'ACTIVE')
             ->take(6)
             ->get();
 
-        return view('web.index', compact('products', 'lastPosts'));
+        return view('web.index', compact('productsSlider', 'productsOther', 'productsPrincipal', 'lastPosts'));
     }
 }

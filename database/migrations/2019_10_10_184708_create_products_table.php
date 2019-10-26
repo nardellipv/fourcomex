@@ -19,7 +19,6 @@ class CreateProductsTable extends Migration
             $table->string('name');
             $table->mediumText('description');
             $table->enum('available', ['YES', 'NO'])->default('YES');
-            $table->enum('section', ['PRINCIPAL', 'OTHER']);
             $table->string('photo')->nullable();
 
             $table->integer('category_id')->unsigned();

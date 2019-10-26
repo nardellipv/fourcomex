@@ -24,7 +24,7 @@
                                     <div class="box-image"><img src="{{ $categoryID->photo }}" alt="" width="146"
                                                                 height="156"/></div>
                                 </div>
-                                <p>{!! $product->description !!}</p>
+                                <p>{!! $categoryID->description !!}</p>
                             </div>
                         </div>
                     </div>
@@ -34,10 +34,10 @@
                         <div data-items="1" data-sm-items="3" data-md-items="3" data-lg-items="4" data-stage-padding="0"
                              data-loop="true" data-margin="30" data-sm-margin="73" data-nav="false" data-dots="true"
                              data-sm-dots-each="2" class="owl-carousel owl-carousel-centered">
-                            @foreach($images as $image)
+                            @foreach($products as $product)
                                 <div class="item"><a href="#" class="link-image link-image-variant-2"><img
-                                                src="{{ $image->name }}" alt="" width="175" height="39"/></a>
-                                    <p>{{ $image->product->name }}</p>
+                                                src="{{ $product->photo }}" alt="" width="175" height="39"/></a>
+                                    <a href="{{ route('product.item', $product->id) }}"><b>{{ $product->name }}</b></a>
                                 </div>
                             @endforeach
                         </div>

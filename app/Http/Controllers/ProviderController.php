@@ -18,12 +18,9 @@ class ProviderController extends Controller
             ->orderBy('name', 'ASC')
             ->get();
 
-        $product = Product::where('category_id', $categoryID->id)
-            ->first();
-
-        $images = Images::where('product_id', $product->id)
+        $products = Product::where('category_id', $categoryID->id)
             ->get();
 
-        return view('web.parts.product._productIndex', compact('categories', 'categoryID', 'product', 'images'));
+        return view('web.parts.product._productIndex', compact('categories', 'categoryID', 'products'));
     }
 }

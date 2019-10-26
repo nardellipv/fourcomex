@@ -8,7 +8,7 @@
         </div>
         <div class="row isotope-wrap offset-top-35 offset-md-top-55">
             <div data-isotope-layout="moduloColumns" class="isotope isotope-spacing-1">
-                @foreach($products as $product)
+                @foreach($productsPrincipal as $product)
                     <div class="col-sm-6 col-lg-4 isotope-item">
                         <article class="post post-variant-1">
                             <figure class="post-image"><img src="{{ $product->photo }}" alt="" />

@@ -10,4 +10,9 @@ class Product extends Model
     {
         return $this->hasMany(Images::class);
     }
+
+    public function ProductSection()
+    {
+        return $this->hasMany(ProductSection::class);
+    }
 }

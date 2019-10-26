@@ -4220,10 +4220,11 @@ tbody.collapse.in {
   overflow: hidden;
   -webkit-transition-property: height, visibility;
   transition-property: height, visibility;
-  -webkit-transition-duration: 0.35s;
-  transition-duration: 0.35s;
+  -webkit-transition-duration: 5s;
+  transition-duration: 5s;
   -webkit-transition-timing-function: ease;
   transition-timing-function: ease;
+  background: #59a6ec;
 }
 
 /** 1.11 Dropdowns */
@@ -37204,10 +37205,10 @@ html.rd-navbar-sidebar-linked body {
 }
 
 .rd-navbar-sidebar .rd-navbar-toggle span:before, .rd-navbar-sidebar .rd-navbar-toggle span:after {
-  -webkit-transition-duration: 0.3s, 0.3s;
-  transition-duration: 0.3s, 0.3s;
-  -webkit-transition-delay: 0.3s, 0s;
-  transition-delay: 0.3s, 0s;
+  -webkit-transition-duration: 5s, 5s;
+  transition-duration: 5s, 5s;
+  -webkit-transition-delay:  5s, 5s;
+  transition-delay: 5s, 5s;
   -webkit-transition-property: top, -webkit-transform;
   transition-property: top, transform;
 }
@@ -39892,6 +39893,7 @@ div.rd-search-results-live.active {
 .swiper-container-fade .swiper-slide-active,
 .swiper-container-fade .swiper-slide-active .swiper-slide-active {
   pointer-events: auto;
+  background: cornflowerblue;
 }
 
 /* Cube */
@@ -40062,7 +40064,7 @@ div.rd-search-results-live.active {
   width: 100%;
   max-height: 100%;
   padding: 40px 0 65px;
-  margin-left: -.25em;
+  margin-left: 50%;
   vertical-align: middle;
   white-space: normal;
   z-index: 1;
@@ -40130,9 +40132,9 @@ div.rd-search-results-live.active {
     -webkit-transform: translateX(-58%);
     transform: translateX(-58%);
   }
-  .swiper-slide .swiper-slide-caption {
+/*  .swiper-slide .swiper-slide-caption {
     padding: 15% 0 106px;
-  }
+  }*/
   .swiper-slide .swiper-slide-text {
     display: block;
     margin-top: 50px;
