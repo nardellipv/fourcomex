@@ -53,7 +53,11 @@
                                                 <span class="shopify-product-reviews-badge"
                                                       data-id="1912078270534"></span>
                                         </div>
+                                        <div style="margin: 30px 0px 30px 0px;">
+                                            <b>Código del producto:</b> {{ $product->cod }}
+                                        </div>
                                         <div class="product-info">
+                                            <b>Descriptión Técnica:</b>
                                             {!! $product->description !!}
                                         </div>
                                     </div>

@@ -20,6 +20,10 @@ class CategorySeeder extends Seeder
              Etiam lorem ex, euismod eleifend ultricies sed, tempor molestie tellus. Curabitur vel tincidunt elit. Nam varius dolor a pellentesque pulvinar. 
              Vestibulum laoreet ante nec augue placerat pulvinar eget vel elit. Suspendisse orci libero, pretium vel mi vel, fringilla posuere sapien. Donec ut 
              augue consectetur, lobortis massa at, vestibulum elit. Mauris congue mauris a urna tristique varius. Etiam suscipit enim sit amet nunc ornare, 
+             vitae iaculis diam efficitur.
+             Etiam lorem ex, euismod eleifend ultricies sed, tempor molestie tellus. Curabitur vel tincidunt elit. Nam varius dolor a pellentesque pulvinar. 
+             Vestibulum laoreet ante nec augue placerat pulvinar eget vel elit. Suspendisse orci libero, pretium vel mi vel, fringilla posuere sapien. Donec ut 
+             augue consectetur, lobortis massa at, vestibulum elit. Mauris congue mauris a urna tristique varius. Etiam suscipit enim sit amet nunc ornare, 
              vitae iaculis diam efficitur.';
         $categories = [
             ['name' => 'Blackmer', 'description' => $description, 'slug' => 'blackmer', 'photo' => 'https://lorempixel.com/640/480/?52953', 'provider_id' => '1'],

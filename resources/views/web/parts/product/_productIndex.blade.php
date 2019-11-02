@@ -37,7 +37,7 @@
                             @foreach($products as $product)
                                 <div class="item"><a href="#" class="link-image link-image-variant-2"><img
                                                 src="{{ $product->photo }}" alt="" width="175" height="39"/></a>
-                                    <a href="{{ route('product.item', $product->id) }}"><b>{{ $product->name }}</b></a>
+                                    <a href="{{ route('product.item', $product->slug) }}"><b>{{ $product->name }}</b></a>
                                 </div>
                             @endforeach
                         </div>

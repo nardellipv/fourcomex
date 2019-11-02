@@ -1,8 +1,8 @@
 <div class="rd-navbar-middle-panel">
     <div class="rd-navbar-panel">
         <button data-rd-navbar-toggle=".rd-navbar-outer-panel" class="rd-navbar-toggle"><span></span></button>
-        <a href="index.html" class="rd-navbar-brand">
-            <div class="rd-navbar-fixed--hidden"><img src="{{ asset('styleWeb/images/logo.png') }}" alt="" width="250" height="40"/> </div>
+        <a href="{{ url('/') }}" class="rd-navbar-brand">
+            <div class="rd-navbar-fixed--hidden"><img src="{{ asset('styleWeb/images/logo.png') }}" alt="fourcomex" width="80%" /> </div>
         </a> </div>
     <div class="rd-navbar-aside">
         <div data-rd-navbar-toggle=".rd-navbar-aside" class="rd-navbar-aside-toggle"><span></span></div>
@@ -19,7 +19,7 @@
                         </div>
                     </div>
                 </li>
-                <li class="block-wrap">
+                {{--<li class="block-wrap">
                     <div class="unit unit-sm-horizontal unit-align-center unit-middle unit-spacing-xxs">
                         <div class="unit-left"><span class="icon icon-circle-sm icon-sm-variant-1 icon-venice-blue-filled icon-white fa-envelope-o"></span></div>
                         <div class="unit-body">
@@ -28,7 +28,7 @@
                             </address>
                         </div>
                     </div>
-                </li>
+                </li>--}}
                 <li class="block-wrap">
                     <div class="unit unit-sm-horizontal unit-align-center unit-middle unit-spacing-xxs">
                         <div class="unit-left"><span class="icon icon-circle-sm icon-sm-variant-1 icon-venice-blue-filled icon-white mdi mdi-phone"></span></div>

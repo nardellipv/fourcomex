@@ -15,7 +15,7 @@
                             </figure>
                             <div class="post-body">
                                 <div class="post-header">
-                                    <h6><a href="blog-post.html">{{ $product->name }}</a></h6>
+                                    <h6><a href="{{ route('product.item', $product->slug) }}">{{ $product->name }}</a></h6>
                                 </div>
                                 <div class="post-text">
                                     <p>{{ Str::limit($product->description, 150) }}</p>

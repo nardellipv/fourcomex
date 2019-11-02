@@ -18,8 +18,10 @@ class CreateProductsTable extends Migration
 
             $table->string('name');
             $table->mediumText('description');
+            $table->string('cod');
             $table->enum('available', ['YES', 'NO'])->default('YES');
             $table->string('photo')->nullable();
+            $table->string('slug');
 
             $table->integer('category_id')->unsigned();
 

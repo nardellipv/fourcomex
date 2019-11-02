@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
-    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="{{ asset('favicon.ico') }}" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="{{ asset('styleWeb/css/css.css?family=Open+Sans:400,700,400italic,600italic,900')}}">
     <link rel="stylesheet" href="{{ asset('styleWeb/css/style.css')}}">
     <!--[if lt IE 10]>
