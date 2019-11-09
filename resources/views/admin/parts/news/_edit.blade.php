@@ -16,7 +16,8 @@
                     @csrf
                     <div class="form-group">
                         <label for="titulo" class="col-form-label">Títluo</label>
-                        <input type="text" class="form-control" name="title" id="titulo" placeholder="Título" value="{{ $post->title }}">
+                        <input type="text" class="form-control" name="title" id="titulo" placeholder="Título"
+                               value="{{ $post->title }}">
                     </div>
 
                     <div class="form-group">
@@ -27,7 +28,10 @@
                     <div class="col-md-8 offset-2">
                         <div class="card-box">
                             <div class="form-group">
-                                <input type="file" name="photo" class="dropify" data-default-file="{{ $post->photo }}" data-max-file-size="1M"/>
+                                <label>Imagen de la noticia</label>
+                                <input type="file" name="photo" class="dropify"
+                                       data-default-file="{{ asset('images/blog/370x278-' .$post->photo) }}"
+                                       data-max-file-size="1M"/>
                             </div>
                         </div>
                     </div>

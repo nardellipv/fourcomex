@@ -14,6 +14,7 @@ $factory->define(Product::class, function (Faker $faker) {
         'cod' => $faker->sentence($nbWords = 2, $variableNbWords = true),
         'available' => $faker->randomElement($array = array('YES', 'NO')),
         'photo' => $faker->imageUrl($width = 640, $height = 480,'abstract'),
+        'link' => $faker->url,
         'slug' => Str::slug($name),
         'category_id' => rand('1','19'),
     ];

@@ -27,6 +27,7 @@
                     <div class="col-md-8 offset-2">
                         <div class="card-box">
                             <div class="form-group">
+                                <label>Imagen de la noticia</label>
                                 <input type="file" name="photo" class="dropify"  data-max-file-size="1M" required />
                             </div>
                         </div>

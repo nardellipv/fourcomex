@@ -21,9 +21,9 @@
                                     <div class="box-header">
                                         <h3>{{ $categoryID->name }}</h3>
                                     </div>
-                                    <div class="box-image"><img src="{{ $categoryID->photo }}" alt="" width="146"
-                                                                height="156"/></div>
+                                    <div class="box-image"><img src="{{ asset('images/category/170x140-' .$categoryID->photo) }}" alt="{{ $categoryID->name }}" /></div>
                                 </div>
+                                <br><br>
                                 <p>{!! $categoryID->description !!}</p>
                             </div>
                         </div>
@@ -36,7 +36,8 @@
                              data-sm-dots-each="2" class="owl-carousel owl-carousel-centered">
                             @foreach($products as $product)
                                 <div class="item"><a href="#" class="link-image link-image-variant-2"><img
-                                                src="{{ $product->photo }}" alt="" width="175" height="39"/></a>
+                                                src="{{ asset('images/product/163x122-' .$product->photo) }}" alt=""
+                                                /></a>
                                     <a href="{{ route('product.item', $product->slug) }}"><b>{{ $product->name }}</b></a>
                                 </div>
                             @endforeach
