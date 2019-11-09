@@ -6,6 +6,7 @@ use App\Category;
 use App\Http\Requests\AddProductRequest;
 use App\Picture;
 use App\Product;
+use App\Section;
 use Brian2694\Toastr\Facades\Toastr;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
@@ -26,8 +27,9 @@ class ProductController extends Controller
     {
         $product = Product::find($id);
         $categories = Category::all();
+        $sections = Section::all();
 
-        return view('admin.parts.product._editProduct', compact('product', 'categories'));
+        return view('admin.parts.product._editProduct', compact('product', 'categories', 'sections'));
     }
 
     public function updateProduct(Request $request, $id)
@@ -36,7 +38,11 @@ class ProductController extends Controller
         $product->name = $request['name'];
         $product->description = $request['description'];
         $product->cod = $request['cod'];
-        $product->available = 'YES';
+        if ($product->available == 'on') {
+            $product->available = 'YES';
+        } else {
+            $product->available = 'NO';
+        }
         $product->link = $request['link'];
         $product->slug = Str::slug($request['name']);
         $product->category_id = $request['category_id'];
@@ -95,11 +101,18 @@ class ProductController extends Controller
 
     public function storeProduct(AddProductRequest $request)
     {
+
+        if ($request->available == 'on') {
+            $available = 'YES';
+        } else {
+            $available = 'NO';
+        }
+
         $product = Product::create([
             'name' => $request['name'],
             'description' => $request['description'],
             'cod' => $request['cod'],
-            'available' => 'YES',
+            'available' => $available,
             'link' => $request['link'],
             'slug' => Str::slug($request['name']),
             'category_id' => $request['category_id'],

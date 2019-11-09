@@ -26,6 +26,13 @@
                     </ul>
                 </li>
                 <li class="has_sub">
+                    <a href="javascript:void(0);" class="waves-effect"><i class="mdi mdi-cursor-text"></i> <span> Secciones Sitio web</span>
+                        <i class="mdi mdi-chevron-right"></i></a>
+                    <ul class="list-unstyled">
+                        <li><a href="{{ route('list.category') }}">Listado Categorias</a></li>
+                    </ul>
+                </li>
+                <li class="has_sub">
                     <a href="javascript:void(0);" class="waves-effect"><i class="mdi mdi-account"></i> <span> Usuarios</span>
                         <i class="mdi mdi-chevron-right"></i></a>
                     <ul class="list-unstyled">

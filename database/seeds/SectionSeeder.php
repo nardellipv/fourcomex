@@ -11,6 +11,15 @@ class SectionSeeder extends Seeder
      */
     public function run()
     {
-        factory(\App\Section::class, 30)->create();
+        DB::table('sections')->delete();
+        $sections = [
+            ['section' => 'PRINCIPAL'],
+            ['section' => 'SLIDER'],
+            ['section' => 'PRODUCTO'],
+        ];
+
+        foreach ($sections as $section) {
+            \App\Section::create($section);
+        }
     }
 }

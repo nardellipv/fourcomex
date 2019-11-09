@@ -3,6 +3,8 @@
 @section('style')
     <link href="{{ asset('styleAdmin/assets/plugins/fileuploads/css/dropify.min.css') }}" rel="stylesheet"
           type="text/css"/>
+    <link href="{{ asset('styleAdmin/assets/plugins/switchery/switchery.min.css') }}" rel="stylesheet"/>
+
     <style>
         .dlk-radio input[type="radio"],
         .dlk-radio input[type="checkbox"] {
@@ -42,9 +44,8 @@
                         <textarea name="description" id="description">{{ $product->description }}</textarea>
                     </div>
 
-
                     <div class="form-group row">
-                        <div class="col-md-4">
+                        <div class="col-md-6">
                             <div class="card-box">
                                 <div class="form-group">
                                     <label for="codigo" class="col-form-label">Código del Producto</label>
@@ -54,7 +55,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-4">
+                        <div class="col-6">
                             <div class="card-box">
                                 <div class="form-group">
                                     <label for="codigo" class="col-form-label">Seleccione una categoría</label>
@@ -68,13 +69,27 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4">
+                    </div>
+
+
+                    <div class="form-group row">
+                        <div class="col-md-6">
                             <div class="card-box">
                                 <div class="form-group">
                                     <label for="codigo" class="col-form-label">Dirección Web del Producto</label>
                                     <input type="text" class="form-control" name="link" id="codigo"
                                            placeholder="Dirección del producto"
                                            value="{{ $product->link }}">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="card-box">
+                                <div class="form-group">
+                                    <label for="codigo" class="col-form-label">Mostrar en la pagina
+                                        Principal</label><br>
+                                    <label>No </label> <input type="checkbox" data-plugin="switchery"
+                                                             data-color="#ffaa00" name="available"/> <label> Sí</label>
                                 </div>
                             </div>
                         </div>
@@ -86,7 +101,7 @@
                                 <label>Imagen del Producto</label>
                                 <input type="file" name="photo" class="dropify"
                                        data-default-file="{{ asset('images/product/370x277-' .$product->photo) }}"
-                                       data-max-file-size="1M" />
+                                       data-max-file-size="1M"/>
                             </div>
                         </div>
                     </div>
@@ -95,7 +110,7 @@
                         <div class="card-box">
                             <div class="form-group">
                                 <label>Imagen del producto en miniatura</label>
-                                <input type='file' name='files[]' multiple />
+                                <input type='file' name='files[]' multiple/>
                             </div>
                         </div>
                     </div>
@@ -109,6 +124,7 @@
 
 @section('script')
     <script src="{{ asset('styleAdmin/assets/plugins/fileuploads/js/dropify.min.js') }}"></script>
+    <script src="{{ asset('styleAdmin/assets/plugins/switchery/switchery.min.js') }}"></script>
 
     <script type="text/javascript">
         $('.dropify').dropify({

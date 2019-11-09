@@ -13,7 +13,8 @@ class HomeController extends Controller
         $productsSlider = Product::take(3)
             ->get();
 
-        $productsPrincipal = Product::take(6)
+        $productsPrincipal = Product::where('available', 'YES')
+            ->take(6)
             ->get();
 
         $productsOther = Product::all();

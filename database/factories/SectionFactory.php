@@ -7,6 +7,6 @@ use Faker\Generator as Faker;
 
 $factory->define(Section::class, function (Faker $faker) {
     return [
-        'section' => $faker->randomElement($array = array('PRINCIPAL', 'SLIDER', 'OTHER')),
+//        'section' => $faker->randomElement($array = array('PRINCIPAL', 'SLIDER', 'OTHER')),
     ];
 });

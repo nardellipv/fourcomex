@@ -16,7 +16,7 @@ class CreateSectionsTable extends Migration
         Schema::create('sections', function (Blueprint $table) {
             $table->increments('id');
 
-            $table->enum('section', ['PRINCIPAL', 'SLIDER', 'OTHER']);
+            $table->enum('section', ['PRINCIPAL', 'SLIDER', 'PRODUCTO']);
 
         });
     }
