@@ -11,14 +11,13 @@
                                 <div class="post-wrap-header">
                                     <article class="post-wrap-meta">
                                         <time datetime="2016-05-06">{{ $post->created_at->format('d-M') }}</time>
-                                        <figure><img src="images/80x80.jpg" alt="" width="80" height="80"/></figure>
+                                        <br>
                                         <div class="link"><a href="#">{{ $post->user->name }}</a></div>
                                     </article>
                                 </div>
                                 <div class="post-wrap-body">
                                     <article class="post post-variant-4">
-                                        <figure class="post-image"><img src="{{ $post->photo }}" alt="" width="570"
-                                                                        height="378"/></figure>
+                                        <img src="{{ asset('images/blog/570x428-'.$post->photo) }}" alt="{{ $post->title }}" />
                                         <div class="post-body">
                                             <div class="post-header">
                                                 <h6><a href="{{ route('blog.post', $post->slug) }}">{{ $post->title }}</a></h6>

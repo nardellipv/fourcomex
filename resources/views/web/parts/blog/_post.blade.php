@@ -14,8 +14,7 @@
                             <time datetime="2016-05-26">{{ $post->created_at->format('d-m-Y') }}</time>
                             <span>por</span><span>{{ $post->user->name }}</span></div>
                         <div class="post-body">
-                            <figure class="post-image"><img src="{{ $post->photo }}" alt="" width="770" height="510"/>
-                            </figure>
+                            <img src="{{ asset('images/blog/770x578-'.$post->photo) }}" alt="{{ $post->title }}" />
                             <div class="post-text">
                                 <p>{!! $post->body !!}</p>
                             </div>

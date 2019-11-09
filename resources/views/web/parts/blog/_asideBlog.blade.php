@@ -9,6 +9,7 @@
                         <li>
                             <article class="post-recent">
                                 <div class="post-header">
+                                    <img src="{{ asset('images/blog/370x278-'.$lastPost->photo) }}" alt="{{ $lastPost->title }}" />
                                     <h6><a href="{{ route('blog.post', $lastPost->slug) }}">{{ $lastPost->title }}</a></h6>
                                 </div>
                                 <div class="post-meta"></div>
