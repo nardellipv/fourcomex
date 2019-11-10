@@ -6,10 +6,10 @@ use Illuminate\Database\Eloquent\Model;
 
 class Section extends Model
 {
+    protected $fillable = [
+        'title', 'text','picture'
+    ];
+
     public $timestamps = false;
 
-    public function ProductSection()
-    {
-        return $this->hasMany(ProductSection::class);
-    }
 }

@@ -6,7 +6,7 @@ Auth::routes();
 //web
 Route::get('/', 'HomeController@index')->name('home');
 
-Route::view('/sobre-nosotros', 'web.parts.about._about');
+Route::get('/sobre-nosotros', 'HomeController@about')->name('about.view');
 Route::view('/contacto', 'web.parts.about._contact');
 
 Route::get('/blog', 'BlogController@index')->name('blog.index');
@@ -41,3 +41,15 @@ Route::get('/admin/productos', 'Admin\ProductController@listProduct')->name('lis
     Route::get('/admin/producto-eliminar/{id}', 'Admin\ProductController@deleteProduct')->name('delete.product');
     Route::get('/admin/agregar-producto', 'Admin\ProductController@addProduct')->name('add.product');
     Route::post('/admin/agregar-producto', 'Admin\ProductController@storeProduct')->name('store.product');
+
+Route::get('/admin/slider', 'Admin\SectionController@sliderView')->name('slider.view');
+    Route::post('/admin/agregar-slider', 'Admin\SectionController@addSlider')->name('add.slider');
+    Route::get('/admin/slider-actualizar/{id}', 'Admin\SectionController@editSlider')->name('edit.slider');
+    Route::post('/admin/update-actualizar/{id}', 'Admin\SectionController@updateSlider')->name('update.slider');
+    Route::get('/admin/slider-eliminar/{id}', 'Admin\SectionController@deleteslider')->name('delete.slider');
+
+Route::get('/admin/about','Admin\SectionController@viewAbout')->name('view.about');
+    Route::post('/admin/agregar-about', 'Admin\SectionController@addAbout')->name('add.about');
+    Route::get('/admin/about-actualizar/{id}', 'Admin\SectionController@editAbout')->name('edit.about');
+    Route::post('/admin/about-actualizar/{id}', 'Admin\SectionController@updateAbout')->name('update.about');
+    Route::get('/admin/about-eliminar/{id}', 'Admin\SectionController@deleteAbout')->name('delete.about');

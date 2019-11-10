@@ -26,7 +26,6 @@
 
 @section('content')
     <div class="row">
-
         <div class="col-md-12">
             <div class="card-box">
                 <h4 class="m-t-0 header-title">Editar Producto</h4>

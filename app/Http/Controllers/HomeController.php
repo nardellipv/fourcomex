@@ -10,20 +10,26 @@ class HomeController extends Controller
 {
     public function index()
     {
-        $productsSlider = Product::take(3)
+        $sliders = Section::where('section', 'SLIDER')
             ->get();
 
         $productsPrincipal = Product::where('available', 'YES')
             ->take(6)
             ->get();
 
-        $productsOther = Product::all();
-
         $lastPosts = Blog::orderBy('created_at', 'DESC')
             ->where('status', 'ACTIVE')
             ->take(6)
             ->get();
 
-        return view('web.index', compact('productsSlider', 'productsOther', 'productsPrincipal', 'lastPosts'));
+        return view('web.index', compact('sliders', 'productsPrincipal', 'lastPosts'));
+    }
+
+    public function about()
+    {
+        $about = Section::where('section', 'ABOUT')
+            ->first();
+
+        return view('web.parts.about._about', compact('about'));
     }
 }
