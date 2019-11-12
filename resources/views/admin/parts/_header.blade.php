@@ -14,13 +14,20 @@
         <nav class="navbar-custom">
             <ul class="list-unstyled topbar-right-menu float-right mb-0">
                 <li class="dropdown dropslide">
-                    <a class="nav-link" href="index.html#" id="navbarDropdownProfile" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        <img src="{{asset('styleAdmin/assets/images/profile.jpg') }}" alt="user-img" class="rounded-circle img-thumbnail img-responsive">
+                    <a class="nav-link" href="index.html#" id="navbarDropdownProfile" data-toggle="dropdown"
+                       aria-haspopup="true" aria-expanded="false">
+                        <img src="{{asset('styleAdmin/assets/images/profile.jpg') }}" alt="user-img"
+                             class="rounded-circle img-thumbnail img-responsive">
                     </a>
                     <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownProfile">
-                        <a class="dropdown-item" href="index.html#"><i class="mdi mdi-account"></i> Perfil</a>
+                        <a class="dropdown-item" href="{{ route('index.users') }}"><i class="mdi mdi-account"></i>
+                            Perfil</a>
                         <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="index.html#"><i class="mdi mdi-power"></i> Salir</a>
+                        <a class="dropdown-item" href=""{{ route('logout') }}" onclick="event.preventDefault();
+                        document.getElementById('logout-form').submit();"><i class="mdi mdi-power"></i> Salir</a>
+                        <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                            @csrf
+                        </form>
                     </div>
                 </li>
             </ul>

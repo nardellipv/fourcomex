@@ -18,7 +18,7 @@ Route::get('/item/{slug}', 'ProductController@item')->name('product.item');
 
 
 //admin
-Route::view('/admin/dashboard', 'admin.admin')->name('dashboard');
+Route::middleware(['auth'])->group(function () {
 Route::get('/admin/listado-noticias', 'Admin\NewsController@listNews')->name('list.news');
     Route::view('/admin/agregar-noticia', 'admin.parts.news._add')->name('add.news');
     Route::post('/admin/add-news', 'Admin\NewsController@addNews')->name('addNew.news');
@@ -53,3 +53,11 @@ Route::get('/admin/about','Admin\SectionController@viewAbout')->name('view.about
     Route::get('/admin/about-actualizar/{id}', 'Admin\SectionController@editAbout')->name('edit.about');
     Route::post('/admin/about-actualizar/{id}', 'Admin\SectionController@updateAbout')->name('update.about');
     Route::get('/admin/about-eliminar/{id}', 'Admin\SectionController@deleteAbout')->name('delete.about');
+
+Route::get('/admin/users','Admin\UsersController@indexUsers')->name('index.users');
+    Route::post('/admin/agregar-users', 'Admin\UsersController@addUser')->name('add.user');
+    Route::get('/admin/users-actualizar/{id}', 'Admin\UsersController@editUser')->name('edit.user');
+    Route::post('/admin/users-actualizar/{id}', 'Admin\UsersController@updateUser')->name('update.user');
+    Route::get('/admin/delete-eliminar/{id}', 'Admin\UsersController@deleteUser')->name('delete.user');
+
+});

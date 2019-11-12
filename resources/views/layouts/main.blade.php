@@ -52,25 +52,6 @@
                                 </ul>
                             </div>
                         </div>
-                        <div class="cell-sm-6 cell-md-4 offset-top-55 offset-sm-top-0">
-                            <div class="max-width-300">
-                                <h5 class="h5-variant-1">Newsletter</h5>
-                                <hr>
-                                <p class="offset-top-22">Inscríbase a nuestros newsletter y manténgase informado.</p>
-                                <form data-form-output="form-output-global" data-form-type="subscribe" method="post"
-                                      action="#"
-                                      class="rd-mailform rd-mailform-inline rd-mailform-inline-sm offset-top-10">
-                                    <div class="form-group">
-                                        <label for="footer-subscribe-email" class="form-label">Ingrese su
-                                            e-mail...</label>
-                                        <input id="footer-subscribe-email" type="email" name="email"
-                                               data-constraints="@Email @Required" class="form-control">
-                                    </div>
-                                    <button type="submit" class="btn btn-xs btn-primary btn-no-shadow">Suscribirse
-                                    </button>
-                                </form>
-                            </div>
-                        </div>
                         <div class="cell-md-4 cell-lg-5 offset-top-55 offset-md-top-0">
                             <div class="range">
                                 <div class="cell-xs-12">
@@ -112,8 +93,7 @@
                     </div>
                     <div class="range offset-top-55 offset-sm-top-60 offset-lg-top-88">
                         <div class="cell-xs-12">
-                            <p class="rights">&#169;&nbsp;<span id="copyright-year"></span>&nbsp;All Rights Reserved&nbsp;<a
-                                        href="privacy.html" class="link-gray">Terms of Use and Privacy Policy</a></p>
+                            <p class="rights">&#169;&nbsp;<span id="copyright-year"></span>&nbsp;designed by MikAnt </p>
                         </div>
                     </div>
                 </div>

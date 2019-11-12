@@ -4,6 +4,7 @@ namespace App\Http\Controllers\Admin;
 
 use App\Http\Requests\AddNewsRequest;
 use Brian2694\Toastr\Facades\Toastr;
+use Illuminate\Support\Facades\Auth;
 use Image;
 use App\Blog;
 use Illuminate\Http\Request;
@@ -35,7 +36,7 @@ class NewsController extends Controller
             'photo' => 0,
             'status' => 'ACTIVE',
             'slug' => Str::slug($request['title']),
-            'user_id' => '1',
+            'user_id' => Auth::user()->id,
         ]);
 
         if ($request->photo) {

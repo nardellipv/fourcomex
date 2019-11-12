@@ -3,10 +3,6 @@
         <!--- Sidemenu -->
         <div id="sidebar-menu">
             <ul>
-                <li>
-                    <a href="{{ route('dashboard') }}" class="waves-effect"><i class="mdi mdi-airplay"></i> <span> Dashboard </span>
-                    </a>
-                </li>
                 <li class="has_sub">
                     <a href="javascript:void(0);" class="waves-effect"><i class="mdi mdi-newspaper"></i> <span> News</span>
                         <i class="mdi mdi-chevron-right"></i></a>
@@ -37,13 +33,16 @@
                     <a href="javascript:void(0);" class="waves-effect"><i class="mdi mdi-account"></i> <span> Usuarios</span>
                         <i class="mdi mdi-chevron-right"></i></a>
                     <ul class="list-unstyled">
-                        <li><a href="ui-buttons.html">Listado</a></li>
-                        <li><a href="ui-buttons.html">Agregar</a></li>
+                        <li><a href="{{ route('index.users') }}">Listado</a></li>
                     </ul>
                 </li>
                 <li>
-                    <a href="index.html" class="waves-effect"><i class="mdi mdi-exit-to-app"></i> <span> Salir </span>
+                    <a href="{{ route('logout') }}" onclick="event.preventDefault(); document.getElementById('logout-form').submit();"
+                       class="waves-effect"><i class="mdi mdi-exit-to-app"></i> <span> Salir </span>
                     </a>
+                    <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                        @csrf
+                    </form>
                 </li>
             </ul>
             <div class="clearfix"></div>
