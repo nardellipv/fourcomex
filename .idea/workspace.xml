@@ -2,19 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a27c8a6-f7dc-498a-b4c1-4f1e5ff33f9a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/parts/users/_editUsers.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/parts/users/_indexUsers.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/NewsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/NewsController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/VerificationController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/VerificationController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/BlogController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/BlogController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/parts/_header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/parts/_header.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/parts/_menu.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/parts/_menu.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/auth/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/login.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/main.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/main.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/blog/370x278-IMG_20151212_182131-COLLAGE.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/blog/370x278-hdl372-pkg_px980123_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/blog/370x278-ld-17_w_shadow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/blog/570x428-IMG_20151212_182131-COLLAGE.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/blog/570x428-hdl372-pkg_px980123_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/blog/570x428-ld-17_w_shadow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/blog/770x578-IMG_20151212_182131-COLLAGE.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/blog/770x578-hdl372-pkg_px980123_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/blog/770x578-ld-17_w_shadow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/section/118x88-IMG_3238.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/section/118x88-Untitled-001.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/section/118x88-Untitled-002.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/section/118x88-Untitled-004.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/section/118x88-Untitled.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/section/235x176-IMG_3238.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/section/235x176-Untitled-001.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/section/235x176-Untitled-002.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/section/235x176-Untitled-004.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/section/235x176-Untitled.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/section/600x316-IMG-20151101-WA0008.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/section/600x316-IMG_20151212_182131.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/section/600x316-IMG_3238.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/parts/_products.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/web/parts/_products.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -27,26 +39,7 @@
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="web.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/routes/web.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="421">
-              <caret line="57" column="59" selection-start-line="57" selection-start-column="49" selection-end-line="57" selection-end-column="59" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LoginController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="27" column="35" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -86,7 +79,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/resources/views/admin/parts/content/_listContent.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/parts/content/_editContent.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/parts/content/_addCategory.blade.php" />
         <option value="$PROJECT_DIR$/app/Category.php" />
@@ -111,7 +103,6 @@
         <option value="$PROJECT_DIR$/app/Http/Controllers/Admin/ProductController.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/parts/product/_editProduct.blade.php" />
         <option value="$PROJECT_DIR$/database/seeds/SectionSeeder.php" />
-        <option value="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" />
         <option value="$PROJECT_DIR$/database/factories/SectionFactory.php" />
         <option value="$PROJECT_DIR$/app/Section.php" />
         <option value="$PROJECT_DIR$/resources/views/web/parts/_slider.blade.php" />
@@ -124,19 +115,21 @@
         <option value="$PROJECT_DIR$/app/Http/Controllers/Admin/SectionController.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/parts/section/_aboutView.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/auth/login.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Admin/NewsController.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/BlogController.php" />
-        <option value="$PROJECT_DIR$/resources/views/admin/parts/_menu.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Auth/VerificationController.php" />
         <option value="$PROJECT_DIR$/app/Http/Requests/AddUserRequest.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/parts/users/_editUsers.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Admin/UsersController.php" />
-        <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/parts/users/_indexUsers.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/parts/_header.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/layouts/main.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/parts/_menu.blade.php" />
+        <option value="$PROJECT_DIR$/routes/web.php" />
+        <option value="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" />
+        <option value="$PROJECT_DIR$/resources/views/web/parts/_products.blade.php" />
       </list>
     </option>
   </component>
@@ -262,98 +255,6 @@
               <item name="fourcomex" type="b2602c69:ProjectViewProjectNode" />
               <item name="fourcomex" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="fourcomex" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fourcomex" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="fourcomex" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fourcomex" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Http" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="fourcomex" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fourcomex" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Http" type="462c0819:PsiDirectoryNode" />
-              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="fourcomex" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fourcomex" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Http" type="462c0819:PsiDirectoryNode" />
-              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
-              <item name="Admin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="fourcomex" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fourcomex" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Http" type="462c0819:PsiDirectoryNode" />
-              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
-              <item name="Auth" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="fourcomex" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fourcomex" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Http" type="462c0819:PsiDirectoryNode" />
-              <item name="Requests" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="fourcomex" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fourcomex" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="fourcomex" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fourcomex" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="fourcomex" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fourcomex" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="fourcomex" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fourcomex" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="parts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="fourcomex" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fourcomex" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="parts" type="462c0819:PsiDirectoryNode" />
-              <item name="product" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="fourcomex" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fourcomex" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="parts" type="462c0819:PsiDirectoryNode" />
-              <item name="users" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="fourcomex" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fourcomex" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="layouts" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -421,16 +322,15 @@
       <workItem from="1573338895735" duration="5138000" />
       <workItem from="1573395036373" duration="12228000" />
       <workItem from="1573509898951" duration="3389000" />
-      <workItem from="1573596297714" duration="1684000" />
+      <workItem from="1573596297714" duration="2786000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="123532000" />
+    <option name="totallyTimeSpent" value="124634000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1608" y="71" width="1616" height="916" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21722364" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -460,13 +360,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/Http/Requests/AddNewsRequest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="26" column="12" lean-forward="true" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Product.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
@@ -527,13 +420,6 @@
     <entry file="file://$PROJECT_DIR$/database/factories/ProductSectionFactory.php" />
     <entry file="file://$PROJECT_DIR$/database/migrations/2019_10_26_133716_create_product_sections_table.php" />
     <entry file="file://$PROJECT_DIR$/database/seeds/ProductSectionSeeder.php" />
-    <entry file="file://$PROJECT_DIR$/database/seeds/DatabaseSeeder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/ProductSection.php" />
     <entry file="file://$PROJECT_DIR$/database/factories/PictureFactory.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -744,13 +630,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/parts/_menu.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="989">
-          <caret line="43" column="134" selection-start-line="43" selection-start-column="28" selection-end-line="43" selection-end-column="134" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/layouts/main.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="53">
@@ -768,14 +647,35 @@
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
-          <caret line="27" column="35" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="35" />
+          <caret line="27" column="41" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/parts/_menu.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/web.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="421">
-          <caret line="57" column="59" selection-start-line="57" selection-start-column="49" selection-end-line="57" selection-end-column="59" />
+        <state relative-caret-position="76">
+          <caret line="21" column="44" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/seeds/DatabaseSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/web/parts/_products.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="20" column="81" selection-start-line="20" selection-start-column="81" selection-end-line="20" selection-end-column="81" />
         </state>
       </provider>
     </entry>

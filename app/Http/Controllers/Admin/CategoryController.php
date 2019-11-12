@@ -28,7 +28,6 @@ class CategoryController extends Controller
 
     public function storeCategory(Request $request)
     {
-//        dd($request->all());
         $category = Category::create([
             'name' => $request['name'],
             'description' => $request['description'],
@@ -56,8 +55,9 @@ class CategoryController extends Controller
     public function editCategory($id)
     {
         $content = Category::find($id);
+        $providers = Provider::all();
 
-        return view('admin.parts.category._editCategory',compact('content'));
+        return view('admin.parts.category._editCategory',compact('content','providers'));
     }
 
     public function updateCategory(Request $request, $id)

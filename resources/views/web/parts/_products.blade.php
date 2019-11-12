@@ -11,14 +11,14 @@
                 @foreach($productsPrincipal as $product)
                     <div class="col-sm-6 col-lg-4 isotope-item">
                         <article class="post post-variant-1">
-                            <figure class="post-image"><img src="{{ $product->photo }}" alt="" />
+                            <figure class="post-image"><img src="{{ asset('images/product/370x277-' .$product->photo) }}" alt="" />
                             </figure>
                             <div class="post-body">
                                 <div class="post-header">
                                     <h6><a href="{{ route('product.item', $product->slug) }}">{{ $product->name }}</a></h6>
                                 </div>
                                 <div class="post-text">
-                                    <p>{{ Str::limit($product->description, 150) }}</p>
+                                    <p>{!! Str::limit($product->description, 150) !!}</p>
                                 </div>
                             </div>
                         </article>
