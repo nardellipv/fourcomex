@@ -5,49 +5,49 @@
     <section class="section-60 section-sm-90">
         <div class="shell">
             <div class="range">
+                @include('admin.alerts.error')
                 <div class="cell-md-8">
                     <h5>Contacto con FourComex</h5>
                     <hr>
-                    <p>You can contact us any way that is convenient for you. We are available 24/7 via fax or email.
-                        You can also use a quick contact form below or visit our office personally.</p>
-                    <p>We would be happy to answer your questions.</p>
                     <div class="offset-top-50">
-                        <form data-form-output="form-output-global" data-form-type="contact" method="post" action="#"
-                              class="rd-mailform rd-mailform-mod-1">
+                        <form  method="post" action="{{ route('contact.web') }}">
+                            @csrf
+                            {{--<form method="post" action="{{ route('MailContactToSite') }}" class="rd-mailform rd-mailform-mod-1" role="form" data-toggle="validator">
+                                @csrf--}}
                             <div class="range">
                                 <div class="cell-sm-6">
                                     <div class="form-group">
                                         <label for="contact-first-name" class="form-label-outside">Nombre</label>
-                                        <input id="contact-first-name" type="text" name="first-name"
+                                        <input id="contact-first-name" type="text" name="name" value="{{ old('name') }}"
                                                data-constraints="@Required" class="form-control">
                                     </div>
                                 </div>
                                 <div class="cell-sm-6 offset-top-18 offset-sm-top-0">
                                     <div class="form-group">
                                         <label for="contact-last-name" class="form-label-outside">Apellido</label>
-                                        <input id="contact-last-name" type="text" name="last-name"
+                                        <input id="contact-last-name" type="text" name="lastname" value="{{ old('lastname') }}"
                                                data-constraints="@Required" class="form-control">
                                     </div>
                                 </div>
                                 <div class="cell-sm-6 offset-top-18">
                                     <div class="form-group">
                                         <label for="contact-email" class="form-label-outside">E-mail</label>
-                                        <input id="contact-email" type="email" name="email"
+                                        <input id="contact-email" type="email" name="email" value="{{ old('email') }}"
                                                data-constraints="@Email @Required" class="form-control">
                                     </div>
                                 </div>
                                 <div class="cell-sm-6 offset-top-18">
                                     <div class="form-group">
                                         <label for="contact-phone" class="form-label-outside">Teléfono</label>
-                                        <input id="contact-phone" type="text" name="phone"
+                                        <input id="contact-phone" type="text" name="phone" value="{{ old('phone') }}"
                                                data-constraints="@Required @Numeric" class="form-control">
                                     </div>
                                 </div>
                                 <div class="cell-xs-12 offset-top-18">
                                     <div class="form-group">
                                         <label for="contact-message" class="form-label-outside">Mensaje</label>
-                                        <textarea id="contact-message" name="message" data-constraints="@Required"
-                                                  class="form-control"></textarea>
+                                        <textarea id="contact-message" name="messageContact" data-constraints="@Required"
+                                                  class="form-control">{{ old('messageContact') }}</textarea>
                                     </div>
                                 </div>
                                 <div class="cell-xs-12 offset-top-30">

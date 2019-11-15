@@ -1,9 +1,9 @@
 @if (count($errors) > 0)
-    <div class="alert alert-danger">
-        <strong>Ohh!</strong> Por favor {{--{{ Auth::user()->name }}--}} revise los siguientes errores.
+    <div class="alert alert-danger" style="color: whitesmoke">
+        <strong>Ohh!</strong> Por favor revise los siguientes errores.
         <ul>
             @foreach ($errors->all() as $error)
-                <li> {{ $error }}</li>
+                <li style="color: whitesmoke"> {{ $error }}</li>
             @endforeach
         </ul>
     </div>

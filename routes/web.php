@@ -15,7 +15,7 @@ Route::get('/blog/{slug}', 'BlogController@post')->name('blog.post');
 Route::get('/producto/{provider_id}/{slug}', 'ProviderController@index')->name('provider.index');
 Route::get('/item/{slug}', 'ProductController@item')->name('product.item');
 
-
+Route::post('/contacto/email', 'EmailController@contactWeb')->name('contact.web');
 
 //admin
 Route::middleware(['auth'])->group(function () {
