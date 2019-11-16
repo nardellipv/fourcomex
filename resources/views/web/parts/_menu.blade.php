@@ -68,6 +68,7 @@
             </li>
             <li><a href="{{ url('/sobre-nosotros') }}">SOBRE NOSOTROS</a></li>
             <li><a href="{{ url('/contacto') }}">CONTACTO</a></li>
+            <li><a href="{{ url('/login') }}">Ingresar</a></li>
         </ul>
         {{--<div class="rd-navbar-search">
             <form action="search-results.html" method="GET" data-search-live="rd-search-results-live" class="rd-search">

@@ -12,8 +12,6 @@
                     <div class="offset-top-50">
                         <form  method="post" action="{{ route('contact.web') }}">
                             @csrf
-                            {{--<form method="post" action="{{ route('MailContactToSite') }}" class="rd-mailform rd-mailform-mod-1" role="form" data-toggle="validator">
-                                @csrf--}}
                             <div class="range">
                                 <div class="cell-sm-6">
                                     <div class="form-group">

@@ -33,7 +33,7 @@
                         </div>
                     </div>
 
-                    <button type="submit" class="btn btn-info btn btn-block">Actualizar Noticia</button>
+                    <button type="submit" class="btn btn-info btn btn-block">Agregar Noticia</button>
                 </form>
             </div>
         </div>

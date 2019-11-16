@@ -116,7 +116,7 @@
                         </div>
                     </div>
 
-                    <button type="submit" class="btn btn-info btn btn-block">Actualizar Producto</button>
+                    <button type="submit" class="btn btn-info btn btn-block">Agregar Producto</button>
                 </form>
             </div>
         </div>

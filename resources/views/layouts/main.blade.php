@@ -12,6 +12,10 @@
           href="{{ asset('styleWeb/css/css.css?family=Open+Sans:400,700,400italic,600italic,900')}}">
     <link rel="stylesheet" href="{{ asset('styleWeb/css/style.css')}}">
 
+    <link rel="stylesheet" href="http://cdn.bootcss.com/toastr.js/latest/css/toastr.min.css">
+
+    <script src="http://cdn.bootcss.com/jquery/2.2.4/jquery.min.js"></script>
+    <script src="http://cdn.bootcss.com/toastr.js/latest/js/toastr.min.js"></script>
 </head>
 <body>
 <div class="page">
@@ -28,8 +32,9 @@
             </nav>
         </div>
     </header>
-    {!! Toastr::message() !!}
+
     <main class="page-content">
+        {!! Toastr::message() !!}
         @yield('content')
     </main>
     <footer class="page-foot bg-gray-dark">
