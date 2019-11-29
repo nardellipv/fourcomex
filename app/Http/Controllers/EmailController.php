@@ -17,7 +17,7 @@ class EmailController extends Controller
 
             $msj->subject('Mensaje desde fourcomex');
 
-            $msj->to('no-respond@fourcomex.com', 'fourcomex');
+            $msj->to('no-respond@fourcomex.ml', 'fourcomex');
 
         });
 

@@ -2,11 +2,21 @@
     <div class="container">
         <div class="row grid-system-row offset-top-32">
             <div class="col-xs-6">
-                    <h2 style="color: #004A8C;">Do you need tablet repair service?</h2>
-                    <p style="font: bold">Do you need tablet repair service? Its easy to fall in love with your tablet, as it offers the perfect combination of size and function. Whether you use it for work, school, or play, your tablet is a handy companion that is easy to take with you. If this convenience has been interrupted by damage or malfunction, we can fix the problem quickly so that you can enjoy your tablet again.</p>
+                <h2 style="color: #004A8C;">FOURCOMEX</h2>
+                <p style="font: bold">
+                    Después de 42 años trabajando con GLP, la familia Vicentim decidió iniciar negocios en Argentina.
+                    Ahora, no solo con la venta de tanques, sino como representante oficial de productos enfocados en
+                    GLP y CO2. En Brasil atendemos a mas del 75% del mercado de GLP.</p>
+                <p style="font: bold">Asociados en Argentina con Jorge A. Lavanchy y Jeannette Negret, que añaden a la
+                    empresa un profundo
+                    conocimiento sobre el mercado de gases de aire & CO2 en América del Sur, sumados a la experiencia y
+                    dedicación de todas las empresas del grupo EGSA do Brasil y debido a que muchos clientes solicitan
+                    un distribuidor con stock disponible, precio justo y servicio post-venta, decidimos fundar FOURCOMEX
+                    SRL en Argentina para atender, también los mercados de Paraguay y Uruguay.
+                </p>
             </div>
             <div class="col-xs-6">
-                    <img src="{{ asset('styleWeb/images/img-home/card-lgld2-4.jpg') }}">
+                <img src="{{ asset('styleWeb/images/img-home/ppal.png') }}" class="img-responsive">
             </div>
         </div>
     </div>

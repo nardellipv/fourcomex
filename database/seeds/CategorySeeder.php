@@ -39,12 +39,13 @@ class CategorySeeder extends Seeder
             ['name' => 'Chester Valve', 'description' => $description, 'slug' => 'chester_valve', 'photo' => 'https://lorempixel.com/640/480/?52953', 'provider_id' => '2'],
             ['name' => 'Cryo Diffusion', 'description' => $description, 'slug' => 'cryo_diffusion', 'photo' => 'https://lorempixel.com/640/480/?52953', 'provider_id' => '2'],
             ['name' => 'EGSA', 'description' => $description, 'slug' => 'egsa', 'photo' => 'https://lorempixel.com/640/480/?52953', 'provider_id' => '2'],
-            ['name' => 'EC Marshal Excelsior', 'description' => $description, 'slug' => 'ec_marshal_excelsior', 'photo' => 'https://lorempixel.com/640/480/?52953', 'provider_id' => '2'],
+            ['name' => 'MEC Marshal Excelsior', 'description' => $description, 'slug' => 'ec_marshal_excelsior', 'photo' => 'https://lorempixel.com/640/480/?52953', 'provider_id' => '2'],
             ['name' => 'Metal Impact', 'description' => $description, 'slug' => 'metal_impact', 'photo' => 'https://lorempixel.com/640/480/?52953', 'provider_id' => '2'],
             ['name' => 'MGA', 'description' => $description, 'slug' => 'mga', 'photo' => 'https://lorempixel.com/640/480/?52953', 'provider_id' => '2'],
             ['name' => 'RegO', 'description' => $description, 'slug' => 'regO', 'photo' => 'https://lorempixel.com/640/480/?52953', 'provider_id' => '2'],
             ['name' => 'WAC', 'description' => $description, 'slug' => 'wac', 'photo' => 'https://lorempixel.com/640/480/?52953', 'provider_id' => '2'],
             ['name' => 'IKA', 'description' => $description, 'slug' => 'ika', 'photo' => 'https://lorempixel.com/640/480/?52953', 'provider_id' => '3'],
+            ['name' => 'CRYOQUIP', 'description' => $description, 'slug' => 'cryoquip', 'photo' => 'https://lorempixel.com/640/480/?52953', 'provider_id' => '2'],
         ];
 
         foreach ($categories as $category) {

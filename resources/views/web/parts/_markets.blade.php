@@ -5,8 +5,8 @@
             <div class="range">
                 <div class="cell-xs-12">
                     <h2>Nuestras representaciones</h2>
-                    <p class="big">You can rest assured that repairs are only performed with your prior approval of the
-                        work</p>
+                    <p class="big">Para atender las necesidades del mercado aportando soluciones en : Gas Licuado de
+                        Petroleo; Gases del Aire y Gas Natural Licuado.</p>
                 </div>
             </div>
         </div>
@@ -20,35 +20,59 @@
                      data-sm-center-padding="0.5" class="slick-slider slick-slider-style-1">
                     <div class="item height-fill">
                         <div class="product"><a href="services.html#ice-maker-repair" class="product-image"><img
-                                        src="{{ asset('styleWeb/images/marcas/blackmer.png') }}" alt="" width="223"
+                                        src="{{ asset('styleWeb/images/marcas/algas.png') }}" alt="" width="223"
                                         height="227"/></a>
                         </div>
                     </div>
                     <div class="item height-fill">
-                        <div class="product"><a href="services.html#stove-repair" class="product-image"><img
-                                        src="{{ asset('styleWeb/images/marcas/ika.png') }}" alt=""/></a>
+                        <div class="product"><a href="services.html#ice-maker-repair" class="product-image"><img
+                                        src="{{ asset('styleWeb/images/marcas/hannay.png') }}" alt="" width="223"
+                                        height="227"/></a>
                         </div>
                     </div>
                     <div class="item height-fill">
-                        <div class="product"><a href="services.html#microwave-repair" class="product-image"><img
-                                        src="{{ asset('styleWeb/images/marcas/chester.png') }}" alt=""/></a>
+                        <div class="product"><a href="services.html#ice-maker-repair" class="product-image"><img
+                                        src="{{ asset('styleWeb/images/marcas/marshall.png') }}" alt="" width="223"
+                                        height="227"/></a>
                         </div>
                     </div>
                     <div class="item height-fill">
-                        <div class="product"><a href="services.html#washer-repair" class="product-image"><img
-                                        src="{{ asset('styleWeb/images/marcas/cryo.png') }}" alt=""/></a>
+                        <div class="product"><a href="services.html#ice-maker-repair" class="product-image"><img
+                                        src="{{ asset('styleWeb/images/marcas/metalimpact.png') }}" alt="" width="223"
+                                        height="227"/></a>
                         </div>
                     </div>
                     <div class="item height-fill">
-                        <div class="product"><a href="services.html#refrigerator-repair" class="product-image"><img
-                                        src="{{ asset('styleWeb/images/marcas/egsa.png') }}" alt=""/></a>
+                        <div class="product"><a href="services.html#ice-maker-repair" class="product-image"><img
+                                        src="{{ asset('styleWeb/images/marcas/mga.png') }}" alt="" width="223"
+                                        height="227"/></a>
                         </div>
                     </div>
                     <div class="item height-fill">
-                        <div class="product"><a href="services.html#range-hood-repair" class="product-image"><img
-                                        src="{{ asset('styleWeb/images/marcas/rego.png') }}" alt=""/></a>
+                        <div class="product"><a href="services.html#ice-maker-repair" class="product-image"><img
+                                        src="{{ asset('styleWeb/images/marcas/nikkiso.png') }}" alt="" width="223"
+                                        height="227"/></a>
                         </div>
                     </div>
+                    <div class="item height-fill">
+                        <div class="product"><a href="services.html#ice-maker-repair" class="product-image"><img
+                                        src="{{ asset('styleWeb/images/marcas/parker.png') }}" alt="" width="223"
+                                        height="227"/></a>
+                        </div>
+                    </div>
+                    <div class="item height-fill">
+                        <div class="product"><a href="services.html#ice-maker-repair" class="product-image"><img
+                                        src="{{ asset('styleWeb/images/marcas/redseal.png') }}" alt="" width="223"
+                                        height="227"/></a>
+                        </div>
+                    </div>
+                    <div class="item height-fill">
+                        <div class="product"><a href="services.html#ice-maker-repair" class="product-image"><img
+                                        src="{{ asset('styleWeb/images/marcas/rochester.png') }}" alt="" width="223"
+                                        height="227"/></a>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>

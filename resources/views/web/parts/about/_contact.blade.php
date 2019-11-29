@@ -7,7 +7,7 @@
             <div class="range">
                 @include('admin.alerts.error')
                 <div class="cell-md-8">
-                    <h5>Contacto con FourComex</h5>
+                    <h5>Contacto con FOURCOMEX</h5>
                     <hr>
                     <div class="offset-top-50">
                         <form  method="post" action="{{ route('contact.web') }}">
