@@ -106,7 +106,7 @@ class SectionController extends Controller
             $input['photo600'] = '600x316-' . $image->getClientOriginalName();
 
             $img = Image::make($image->getRealPath());
-            $img->fit(600, 316)->save($path . $input['photo600']);
+            $img->fit(600, 400)->save($path . $input['photo600']);
 
             $about->picture = Str::after($input['photo600'], '-');
         }
@@ -136,7 +136,7 @@ class SectionController extends Controller
             $input['photo600'] = '600x316-' . $image->getClientOriginalName();
 
             $img = Image::make($image->getRealPath());
-            $img->fit(600, 316)->save($path . $input['photo600']);
+            $img->fit(600, 400)->save($path . $input['photo600']);
 
             $about->picture = Str::after($input['photo600'], '-');
         }

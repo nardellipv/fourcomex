@@ -26,7 +26,37 @@
                     </div>
                     <div class="item height-fill">
                         <div class="product"><a href="services.html#ice-maker-repair" class="product-image"><img
+                                        src="{{ asset('styleWeb/images/marcas/blackmer.png') }}" alt="" width="223"
+                                        height="227"/></a>
+                        </div>
+                    </div>
+                    <div class="item height-fill">
+                        <div class="product"><a href="services.html#ice-maker-repair" class="product-image"><img
+                                        src="{{ asset('styleWeb/images/marcas/chester.png') }}" alt="" width="223"
+                                        height="227"/></a>
+                        </div>
+                    </div>
+                    <div class="item height-fill">
+                        <div class="product"><a href="services.html#ice-maker-repair" class="product-image"><img
+                                        src="{{ asset('styleWeb/images/marcas/cryo.png') }}" alt="" width="100"
+                                        height="150"/></a>
+                        </div>
+                    </div>
+                    <div class="item height-fill">
+                        <div class="product"><a href="services.html#ice-maker-repair" class="product-image"><img
+                                        src="{{ asset('styleWeb/images/marcas/egsa.png') }}" alt="" width="223"
+                                        height="227"/></a>
+                        </div>
+                    </div>
+                    <div class="item height-fill">
+                        <div class="product"><a href="services.html#ice-maker-repair" class="product-image"><img
                                         src="{{ asset('styleWeb/images/marcas/hannay.png') }}" alt="" width="223"
+                                        height="227"/></a>
+                        </div>
+                    </div>
+                    <div class="item height-fill">
+                        <div class="product"><a href="services.html#ice-maker-repair" class="product-image"><img
+                                        src="{{ asset('styleWeb/images/marcas/ika.png') }}" alt="" width="223"
                                         height="227"/></a>
                         </div>
                     </div>
@@ -63,6 +93,12 @@
                     <div class="item height-fill">
                         <div class="product"><a href="services.html#ice-maker-repair" class="product-image"><img
                                         src="{{ asset('styleWeb/images/marcas/redseal.png') }}" alt="" width="223"
+                                        height="227"/></a>
+                        </div>
+                    </div>
+                    <div class="item height-fill">
+                        <div class="product"><a href="services.html#ice-maker-repair" class="product-image"><img
+                                        src="{{ asset('styleWeb/images/marcas/rego.png') }}" alt="" width="223"
                                         height="227"/></a>
                         </div>
                     </div>

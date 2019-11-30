@@ -10,7 +10,7 @@
                     <h5>Contacto con FOURCOMEX</h5>
                     <hr>
                     <div class="offset-top-50">
-                        <form  method="post" action="{{ route('contact.web') }}">
+                        <form method="post" action="{{ route('contact.web') }}">
                             @csrf
                             <div class="range">
                                 <div class="cell-sm-6">
@@ -23,7 +23,8 @@
                                 <div class="cell-sm-6 offset-top-18 offset-sm-top-0">
                                     <div class="form-group">
                                         <label for="contact-last-name" class="form-label-outside">Apellido</label>
-                                        <input id="contact-last-name" type="text" name="lastname" value="{{ old('lastname') }}"
+                                        <input id="contact-last-name" type="text" name="lastname"
+                                               value="{{ old('lastname') }}"
                                                data-constraints="@Required" class="form-control">
                                     </div>
                                 </div>
@@ -44,7 +45,8 @@
                                 <div class="cell-xs-12 offset-top-18">
                                     <div class="form-group">
                                         <label for="contact-message" class="form-label-outside">Mensaje</label>
-                                        <textarea id="contact-message" name="messageContact" data-constraints="@Required"
+                                        <textarea id="contact-message" name="messageContact"
+                                                  data-constraints="@Required"
                                                   class="form-control">{{ old('messageContact') }}</textarea>
                                     </div>
                                 </div>
@@ -61,19 +63,10 @@
                             <h5>Social</h5>
                             <hr>
                             <ul class="list-inline list-inline-xxs">
-                                <li><a href="#"
-                                       class="icon icon-xs icon-circle icon-white icon-filled-facebook fa-facebook"></a>
-                                </li>
-                                <li><a href="#"
-                                       class="icon icon-xs icon-circle icon-white icon-filled-twitter fa-twitter"></a>
-                                </li>
-                                <li><a href="#"
-                                       class="icon icon-xs icon-circle icon-white icon-filled-google fa-google"></a>
-                                </li>
-                                <li><a href="#"
+                                <li><a href="https://www.linkedin.com/company/fourcomex-srl/" target="_blank"
                                        class="icon icon-xs icon-circle icon-white icon-filled-linkedin fa-linkedin"></a>
                                 </li>
-                                <li><a href="#"
+                                <li><a href="https://instagram.com/fourcomexsrl?igshid=39qhpre27iad" target="_blank"
                                        class="icon icon-xs icon-circle icon-white icon-filled-instagram fa-instagram"></a>
                                 </li>
                             </ul>

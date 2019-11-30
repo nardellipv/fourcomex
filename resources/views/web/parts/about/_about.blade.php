@@ -8,7 +8,7 @@
                 <div class="cell-sm-8 cell-md-6">
                     <div class="inset-md-right-30">
                         <div class="thumbnail thumbnail-video">
-                            <figure><img src="{{ asset('images/section/600x316-' .$about->picture) }}" alt="fourcomex" /></figure>
+                            <img src="{{ asset('images/section/600x316-' .$about->picture) }}" alt="fourcomex" class="img-responsive" />
                         </div>
                     </div>
                 </div>

@@ -1,5 +1,28 @@
 <?php
 
+//Clear route cache:
+/*Route::get('/route', function() {
+    $exitCode = Artisan::call('route:cache');
+    return 'Routes cache cleared';
+});
+
+//Clear config cache:
+Route::get('/config', function() {
+    $exitCode = Artisan::call('config:cache');
+    return 'Config cache cleared';
+});
+
+// Clear application cache:
+Route::get('/clear', function() {
+    $exitCode = Artisan::call('cache:clear');
+    return 'Application cache cleared';
+});
+
+// Clear view cache:
+Route::get('/view', function() {
+    $exitCode = Artisan::call('view:clear');
+    return 'View cache cleared';
+});*/
 
 Auth::routes();
 
