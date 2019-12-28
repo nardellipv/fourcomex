@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row">
             <div class="col-xs-12 text-center">
-                <h2 style="color: #004A8C;">BLACKMER TECHNOLOGIES</h2>
+                <h2 style="color: #004A8C;">Productos</h2>
                 <div class="divider divider-md divider-primary"></div>
             </div>
         </div>

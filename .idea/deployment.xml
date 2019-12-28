@@ -5,7 +5,7 @@
       <paths name="fourcomex">
         <serverdata>
           <mappings>
-            <mapping deploy="/fourcomex" local="$PROJECT_DIR$" web="/" />
+            <mapping deploy="/four" local="$PROJECT_DIR$" web="/" />
           </mappings>
         </serverdata>
       </paths>
