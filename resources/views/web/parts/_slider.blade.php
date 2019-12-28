@@ -6,7 +6,7 @@
 
     header .item img {
         width: 100%;
-        height: 100%;
+        height: 44%;
         object-fit: cover;
     }
 
@@ -182,8 +182,8 @@
     <div class="owl-carousel owl-theme">
         @foreach($sliders as $slider)
             <div class="item">
-                <img src="https://cdn.pixabay.com/photo/2016/03/09/09/22/workplace-1245776_960_720.jpg"
-                     alt="images not found">
+                <img src="{{ asset('images/fourcomex.PNG') }}"
+                     alt="fourcomex">
                 <div class="cover">
                     <div class="container">
                         <div class="header-content">
@@ -191,7 +191,7 @@
                             <h2>{{ $slider->title }}</h2>
                         </div>
                     </div>
-                    <div class="col-sm-5"><img src="{{ asset('images/section/235x176-' .$slider->picture) }}" style="margin-top: 20%;"> </div>
+                    <div class="col-sm-5"><img src="{{ asset('images/section/235x176-' .$slider->picture) }}"> </div>
                 </div>
             </div>
         @endforeach
